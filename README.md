@@ -1,12 +1,12 @@
 # Brogramming Notes
 ## TO-DO
 - [ ] Redux
-- [ ] ES6, ES7
-- [ ] In-depth Javascript
+- [ ] In-depth Javascript (inheritance chain etc.), ES6, ES7
 - [ ] Apache Hadoop, PiG scripts
 - [ ] React in depth, React Router, Server-side rendering
 - [ ] Coursera ML & DL
 - [ ] MySQL
+- [ ] In-depth Java, Java 8
 - [x] Princeton algorithms part I
 - [x] perl
 - [x] pre-ES6 Javascript
