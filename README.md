@@ -1,5 +1,9 @@
 # Brogramming Notes
 ## TO-DO
+- [ ] [vowpal_wabbit](https://github.com/JohnLangford/vowpal_wabbit)
+- [ ] Apache Storm
+- [ ] Clustering algorithms
+- [ ] Locality-sensitive Hashing (LSH)
 - [ ] Redux
 - [ ] In-depth Javascript (inheritance chain etc.), ES6, ES7
 - [ ] Apache Hadoop, PiG scripts
