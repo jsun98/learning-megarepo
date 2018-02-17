@@ -1,4 +1,4 @@
-# Playgroud
+# Playground
 ## TO-DO
 - [ ] [vowpal_wabbit](https://github.com/JohnLangford/vowpal_wabbit)
 - [ ] Apache Storm
