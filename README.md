@@ -9,6 +9,7 @@
 - [ ] Apache Hadoop, PiG scripts
 - [ ] React in depth, React Router, Server-side rendering
 - [ ] Coursera ML & DL
+- [ ] Linear regression course
 - [ ] MySQL
 - [ ] In-depth Java, Java 8
 - [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
