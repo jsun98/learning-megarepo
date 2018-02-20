@@ -7,7 +7,10 @@
   - [ ] Clustering algorithms
   - [ ] Locality-sensitive Hashing (LSH)
 - [ ] Apache Hadoop, PiG scripts, MapReduce
-- [ ] In-depth Java, Java 8
+- [ ] Java
+  - [ ] Java core concepts
+  - [ ] Advanced Java topics
+  - [ ] Java 8 & 9 features
 - [ ] Redux
 - [ ] In-depth Javascript (inheritance chain etc.), ES6, ES7
 - [ ] React in depth, React Router, Server-side rendering
