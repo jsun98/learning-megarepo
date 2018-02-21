@@ -3,9 +3,6 @@
 - [ ] [vowpal_wabbit](https://github.com/JohnLangford/vowpal_wabbit)
 - [ ] Apache Storm
 - [ ] Coursera ML & DL
-- Algorithms
-  - [ ] Clustering algorithms
-  - [ ] Locality-sensitive Hashing (LSH)
 - [ ] Apache Hadoop, PiG scripts, MapReduce
 - [ ] Java
   - [ ] Java core concepts
@@ -15,9 +12,16 @@
 - [ ] In-depth Javascript (inheritance chain etc.), ES6, ES7
 - [ ] React in depth, React Router, Server-side rendering
 - [ ] Node.js concepts (event loop etc)
+- [ ] Clustering algorithms
+- [ ] Locality-sensitive Hashing (LSH)
 - [ ] MySQL
+- [ ] blockchain knowledge
 - [ ] Linear algebra course
 - [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
+- [ ] Improve C/C++ skills
+- [ ] Dynamic Programming
+- [ ] Greedy Algorithm
+- [ ] System design questions for interview 
 - [x] Princeton algorithms part I
 - [x] perl
 - [x] pre-ES6 Javascript
