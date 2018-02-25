@@ -7,9 +7,11 @@
 - [ ] Apache Hadoop, PiG scripts, MapReduce
 - [ ] Maven
 - [ ] Java
-  - [ ] Java core concepts
+  - [x] Java core concepts
   - [ ] Advanced Java topics
   - [ ] Java 8 & 9 features
+- [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
+- [ ] Regex
 - [ ] Redux
 - [ ] In-depth Javascript (inheritance chain etc.), ES6, ES7
 - [ ] React in depth, React Router, Server-side rendering
@@ -17,13 +19,12 @@
 - [ ] Clustering algorithms
 - [ ] Locality-sensitive Hashing (LSH)
 - [ ] MySQL
-- [ ] blockchain knowledge
-- [ ] Linear algebra course
-- [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
-- [ ] Improve C/C++ skills
 - [ ] Dynamic Programming
 - [ ] Greedy Algorithm
 - [ ] System design questions for interview 
+- [ ] Improve C/C++ skills
+- [ ] Linear algebra course
+- [ ] blockchain knowledge
 - [x] Princeton algorithms part I
 - [x] perl
 - [x] pre-ES6 Javascript
