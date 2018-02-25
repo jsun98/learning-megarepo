@@ -1,9 +1,11 @@
 # Playground
 ## TO-DO (in descending order of importance)
 - [ ] [vowpal_wabbit](https://github.com/JohnLangford/vowpal_wabbit)
+- [ ] Gradient boosting decision tree, Random forest
 - [ ] Apache Storm
 - [ ] Coursera ML & DL
 - [ ] Apache Hadoop, PiG scripts, MapReduce
+- [ ] Maven
 - [ ] Java
   - [ ] Java core concepts
   - [ ] Advanced Java topics
