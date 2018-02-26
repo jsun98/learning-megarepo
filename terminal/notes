@@ -1,0 +1,7 @@
+cmd+k - clear screen
+ctrl+u - clear line
+ctrl+w - delete word before
+ctrl+a - jump to start of line
+ctrl+e - jump to end of line 
+ctrl+r - reverse-i-search
+- (minus sign) - last working directory
