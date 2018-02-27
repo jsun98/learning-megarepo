@@ -32,9 +32,10 @@ inc/
 /Makefile.old
 /MANIFEST.bak
 /pm_to_blib
-.class
+*.class
 /*.zip
 
 .DS_Store
 
 .ipynb_checkpoints
+*.swp
