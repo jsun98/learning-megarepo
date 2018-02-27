@@ -5,7 +5,8 @@
 - [ ] Apache Storm
 - [ ] Coursera ML & DL
 - [ ] Apache Hadoop, PiG scripts, MapReduce
-- [ ] Maven
+- [ ] Distributed systems
+- [x] Maven
 - [ ] Java
   - [x] Java core concepts
   - [ ] Advanced Java topics
