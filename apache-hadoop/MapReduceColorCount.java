@@ -1,66 +1,8 @@
-package example;
 
-import java.io.IOException;
-
-import org.apache.avro.Schema;
-import org.apache.avro.mapred.AvroKey;
-import org.apache.avro.mapred.AvroValue;
-import org.apache.avro.mapreduce.AvroJob;
-import org.apache.avro.mapreduce.AvroKeyInputFormat;
-import org.apache.avro.mapreduce.AvroKeyValueOutputFormat;
-import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.NullWritable;
-import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.Mapper;
-import org.apache.hadoop.mapreduce.Reducer;
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import org.apache.hadoop.util.Tool;
-import org.apache.hadoop.util.ToolRunner;
-
-import example.avro.User;
-
+// when using Avro data for input/output in MapReduce, a suitable wrapper must be used
+// key: AvroKey<T>, value: AvroValue<T>
 public class MapReduceColorCount extends Configured implements Tool {
-
-  public static class ColorCountMapper extends
-      Mapper<AvroKey<User>, NullWritable, Text, IntWritable> {
-
-    @Override
-    public void map(AvroKey<User> key, NullWritable value, Context context)
-        throws IOException, InterruptedException {
-
-      CharSequence color = key.datum().getFavoriteColor();
-      if (color == null) {
-        color = "none";
-      }
-      context.write(new Text(color.toString()), new IntWritable(1));
-    }
-  }
-
-  public static class ColorCountReducer extends
-      Reducer<Text, IntWritable, AvroKey<CharSequence>, AvroValue<Integer>> {
-
-    @Override
-    public void reduce(Text key, Iterable<IntWritable> values,
-        Context context) throws IOException, InterruptedException {
-
-      int sum = 0;
-      for (IntWritable value : values) {
-        sum += value.get();
-      }
-      context.write(new AvroKey<CharSequence>(key.toString()), new AvroValue<Integer>(sum));
-    }
-  }
-
   public int run(String[] args) throws Exception {
-    if (args.length != 2) {
-      System.err.println("Usage: MapReduceColorCount <input path> <output path>");
-      return -1;
-    }
-
     Job job = new Job(getConf());
     job.setJarByClass(MapReduceColorCount.class);
     job.setJobName("Color Count");
@@ -68,14 +10,23 @@ public class MapReduceColorCount extends Configured implements Tool {
     FileInputFormat.setInputPaths(job, new Path(args[0]));
     FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
+    job.setReducerClass(ColorCountReducer.class);
+    job.setmapperclass(colorcountmapper.class);
+    
+    // this is required if input is Avro
     job.setInputFormatClass(AvroKeyInputFormat.class);
-    job.setMapperClass(ColorCountMapper.class);
-    AvroJob.setInputKeySchema(job, User.getClassSchema());
+    // whenever a AvroValue<> or AvroKey<> is used,
+    // always set the schema
+    AvroJob.setInputKeySchema(job, InputKeySchema);
+    AvroJob.setInputValueSchema(job, InputValueSchema);
     job.setMapOutputKeyClass(Text.class);
     job.setMapOutputValueClass(IntWritable.class);
 
+    // this is also required if output is Avro
     job.setOutputFormatClass(AvroKeyValueOutputFormat.class);
-    job.setReducerClass(ColorCountReducer.class);
+    // notice input keys schemas don't need to be set because the
+    // input to the reducer are not Avro data
+    // always set schema for keys/values in mapper and reducer
     AvroJob.setOutputKeySchema(job, Schema.create(Schema.Type.STRING));
     AvroJob.setOutputValueSchema(job, Schema.create(Schema.Type.INT));
 
