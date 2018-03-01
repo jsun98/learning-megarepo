@@ -5,10 +5,9 @@
 - [ ] Apache Storm
 - [ ] Coursera ML & DL
 - [ ] Apache Hadoop, PiG scripts, MapReduce
-- [ ] Distributed systems
 - [x] Maven
 - [ ] Java
-  - [x] Java core concepts
+  - [ ] Java core concepts
   - [ ] Advanced Java topics
   - [ ] Java 8 & 9 features
 - [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
@@ -23,6 +22,12 @@
 - [ ] Dynamic Programming
 - [ ] Greedy Algorithm
 - [ ] System design questions for interview 
+- [ ] Distributed systems
+	- online resources
+	- books
+- [ ] Machine Learning
+	- books
+	- online resources
 - [ ] Improve C/C++ skills
 - [ ] Linear algebra course
 - [ ] blockchain knowledge
