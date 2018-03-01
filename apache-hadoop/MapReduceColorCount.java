@@ -17,6 +17,7 @@ public class MapReduceColorCount extends Configured implements Tool {
     job.setInputFormatClass(AvroKeyInputFormat.class);
     // whenever a AvroValue<> or AvroKey<> is used,
     // always set the schema
+    // NOTE: GenericRecord don't need to set schemas
     AvroJob.setInputKeySchema(job, InputKeySchema);
     AvroJob.setInputValueSchema(job, InputValueSchema);
     job.setMapOutputKeyClass(Text.class);
