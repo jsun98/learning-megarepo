@@ -2,9 +2,11 @@
 ## TO-DO (in descending order of importance)
 - [ ] [vowpal_wabbit](https://github.com/JohnLangford/vowpal_wabbit)
 - [ ] Gradient boosting decision tree, Random forest
-- [ ] Apache Storm
+- [x] Apache Storm
 - [ ] Coursera ML & DL
-- [ ] Apache Hadoop, PiG scripts, MapReduce
+- [ ] Apache Hadoop & MapReduce
+- [ ] Apache Pig
+- [x] Apache Avro
 - [x] Maven
 - [ ] Java
   - [ ] Java core concepts
@@ -28,11 +30,9 @@
 - [ ] Machine Learning
 	- books
 	- online resources
+- [ ] blockchain/trading knowledge
 - [ ] Improve C/C++ skills
 - [ ] Linear algebra course
-- [ ] blockchain knowledge
-- [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
-- [ ] large scale distributed system
 - [ ] Functional programming
 - [x] Princeton algorithms part I
 - [x] perl
