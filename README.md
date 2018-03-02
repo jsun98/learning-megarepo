@@ -2,7 +2,7 @@
 ## TO-DO (in descending order of importance)
 - [ ] [vowpal_wabbit](https://github.com/JohnLangford/vowpal_wabbit)
 - [ ] Gradient boosting decision tree, Random forest
-- [x] Apache Storm
+- [ ] Apache Storm
 - [ ] Coursera ML & DL
 - [ ] Apache Hadoop & MapReduce
 - [ ] Apache Pig
