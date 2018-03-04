@@ -26,7 +26,7 @@ ls -l $testfile
 # "0 - no permission"
 # "1 - execute"
 # "2 - write"
-# "3 - read"
+# "4 - read"
 # "sum up these to get the permission you want"
 # "ex. 5 = rw" 
 
