@@ -1,41 +1,40 @@
 # Playground
 ## TO-DO (in descending order of importance)
-- [ ] [vowpal_wabbit](https://github.com/JohnLangford/vowpal_wabbit)
-- [ ] Gradient boosting decision tree, Random forest
-- [ ] Apache Storm
-- [ ] Coursera ML & DL
-- [ ] Apache Hadoop & MapReduce
-- [ ] Apache Pig
-- [x] Apache Avro
-- [x] Maven
-- [ ] Java
-  - [ ] Java core concepts
-  - [ ] Advanced Java topics
-  - [ ] Java 8 & 9 features
-- [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
-- [ ] Regex
-- [ ] Redux
-- [ ] In-depth Javascript (inheritance chain etc.), ES6, ES7
-- [ ] React in depth, React Router, Server-side rendering
-- [ ] Node.js concepts (event loop etc)
-- [ ] Clustering algorithms
-- [ ] MySQL
-- [ ] Dynamic Programming
-- [ ] Greedy Algorithm
-- [ ] System design questions for interview 
-- [ ] Distributed systems
-	- online resources
-	- books
 - [ ] Machine Learning
+	- [ ] [vowpal_wabbit](https://github.com/JohnLangford/vowpal_wabbit)
+	- [ ] GBDT
 	- [ ] Locality-sensitive Hashing (LSH)
 	- [ ] 1 clustering algorithm
 	- [ ] Naive Bayes classification
 	- [ ] Random Forest
 	- books
+- [ ] Apache Hadoop & MapReduce
+- [ ] Apache Pig
+- [ ] Apache Storm
+- [ ] Coursera ML & DL
+- [ ] Java
+  - [ ] Java core concepts
+  - [ ] Advanced Java topics
+  - [ ] Java 8 & 9 features
+- [x] Apache Avro
+- [x] Maven
+- [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
+- [ ] Distributed systems
+	- online resources
+	- books
+- [ ] Regex
+- [ ] Redux
+- [ ] In-depth Javascript (inheritance chain etc.), ES6, ES7
+- [ ] React in depth, React Router, Server-side rendering
+- [ ] Node.js concepts (event loop etc)
+- [ ] MySQL
+- [ ] Dynamic Programming
+- [ ] Greedy Algorithm
+- [ ] System design questions for interview 
+- [ ] Functional programming
 - [ ] blockchain/trading knowledge
 - [ ] Improve C/C++ skills
 - [ ] Linear algebra course
-- [ ] Functional programming
 - [x] Princeton algorithms part I
 - [x] perl
 - [x] pre-ES6 Javascript
