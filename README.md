@@ -19,7 +19,6 @@
 - [ ] React in depth, React Router, Server-side rendering
 - [ ] Node.js concepts (event loop etc)
 - [ ] Clustering algorithms
-- [ ] Locality-sensitive Hashing (LSH)
 - [ ] MySQL
 - [ ] Dynamic Programming
 - [ ] Greedy Algorithm
@@ -28,8 +27,11 @@
 	- online resources
 	- books
 - [ ] Machine Learning
+	- [ ] Locality-sensitive Hashing (LSH)
+	- [ ] 1 clustering algorithm
+	- [ ] Naive Bayes classification
+	- [ ] Random Forest
 	- books
-	- online resources
 - [ ] blockchain/trading knowledge
 - [ ] Improve C/C++ skills
 - [ ] Linear algebra course
