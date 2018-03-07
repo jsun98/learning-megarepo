@@ -23,6 +23,7 @@
 	- online resources
 	- books
 - [ ] Regex
+- [ ] Redis, Cassendra
 - [ ] Redux
 - [ ] In-depth Javascript (inheritance chain etc.), ES6, ES7
 - [ ] React in depth, React Router, Server-side rendering
