@@ -7,6 +7,7 @@
 	- [ ] 1 clustering algorithm
 	- [ ] Naive Bayes classification
 	- [ ] Random Forest
+	- [ ] Feature extraction
 	- books
 - [ ] Apache Hadoop & MapReduce
 - [ ] Apache Pig
