@@ -43,7 +43,5 @@
 
 ## Side project ideas
 ### Neural Network in Python/C++
-### Fake-news detection
-### Daily routine/task checklist
-displays a 'congrats' message or offers rewards when all tasks for the day are completed
-### RealGen
+### Stock Prediction
+### dotfiles
