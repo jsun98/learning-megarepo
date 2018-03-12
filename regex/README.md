@@ -1,0 +1,23 @@
+# Regular Expressions
+- `123...` digits
+- `abcABC...` letters
+- `\d` any digit
+- `\D` any non-digit character
+- `.` any character
+- `\.` period
+- `[abc]` only 'abc'
+- `[^abc]` not a, b, nor c
+- `[a-z]` characters a to z
+- `[0-9]` characters 0 to 9
+- `[a-z0-9_]` matches any one alphanumeric character, equivelent to \w
+- `\w` any alphanumeric character
+- `{m}` m repetitions
+- `{m, n}` match m - n (inclusive) times
+- `*` zero or more
+- `+` one or more
+- `?` optional
+- `\?` question mark character
+- `\s` whitespace
+- `\S` any non-whitespacex
+- `^...$` begin and end line
+- `(...)` capture groups 
