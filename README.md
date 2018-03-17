@@ -23,8 +23,10 @@
 - [ ] Distributed systems
 	- online resources
 	- books
+- [ ] cryptos, stocks and trading
 - [ ] Regex
-- [ ] Redis, Cassendra
+- [ ] AWS - EC2, Lambda etc.
+- [ ] Redis, Cassendra, DynamosDB, Amazon Aurora
 - [ ] Redux
 - [ ] In-depth Javascript (inheritance chain etc.), ES6, ES7
 - [ ] React in depth, React Router, Server-side rendering
@@ -34,7 +36,7 @@
 - [ ] Greedy Algorithm
 - [ ] System design questions for interview 
 - [ ] Functional programming
-- [ ] blockchain/trading knowledge
+- [ ] croptography and cybersecurity
 - [ ] Improve C/C++ skills
 - [ ] Linear algebra course
 - [x] Princeton algorithms part I
