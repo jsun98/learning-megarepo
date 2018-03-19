@@ -3,15 +3,19 @@
 - [ ] Machine Learning
 	- [ ] [vowpal_wabbit](https://github.com/JohnLangford/vowpal_wabbit)
 	- [ ] GBDT
+	- [ ] TensorFlow
+	- [ ] Scikit
+	- [ ] Pandas
+	- [ ] Keras
 	- [ ] Locality-sensitive Hashing (LSH)
 	- [ ] 1 clustering algorithm
 	- [ ] Naive Bayes classification
 	- [ ] Random Forest
 	- [ ] Feature extraction
 	- books
-- [ ] Apache Hadoop & MapReduce
-- [ ] Apache Pig
-- [ ] Apache Storm
+- [x] Apache Hadoop & MapReduce
+- [x] Apache Pig
+- [x] Apache Storm
 - [ ] Coursera ML & DL
 - [ ] Java
   - [ ] Java core concepts
