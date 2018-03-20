@@ -15,7 +15,7 @@
 	- books
 - [x] Apache Hadoop & MapReduce
 - [x] Apache Pig
-- [x] Apache Storm
+- [ ] Apache Storm
 - [ ] Coursera ML & DL
 - [ ] Java
   - [ ] Java core concepts
