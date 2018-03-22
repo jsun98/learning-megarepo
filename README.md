@@ -47,6 +47,13 @@
 - [x] perl
 - [x] pre-ES6 Javascript
 
+## Machine Learning Resources
+### Links
+[QUORA - books, links and papers](https://www.quora.com/How-do-I-learn-machine-learning-1)
+[Awesome machine learning](https://github.com/jsun98/awesome-machine-learning)
+### Books
+- Introduction to Statistical Learning (ISL)
+- A Probabilistic Theory of Pattern Recognition
 ## Side project ideas
 ### Neural Network in Python/C++
 ### Stock Prediction

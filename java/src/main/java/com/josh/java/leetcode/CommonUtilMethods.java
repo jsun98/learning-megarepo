@@ -25,6 +25,9 @@ public class CommonUtilMethods {
 		q.add(1);
 		q.add(2);
 		q.poll(); // returns 1
-		
+
+		// initialize array with known values
+		int[] initArray = new int[] {1, 2, 3, 4};
+
 	}
 }
