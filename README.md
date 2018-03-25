@@ -13,20 +13,25 @@
 	- [ ] Random Forest
 	- [ ] Feature extraction
 	- books
-- [x] Apache Hadoop & MapReduce
-- [x] Apache Pig
+- Hadoop
+    - [ ] HDFS 
+    - [ ] MapReduce
+    - [ ] Apache Pig
+    - [ ] Hbase
+    - [ ] Hive
+    - [x] Avro
 - [ ] Apache Storm
-- [ ] Coursera ML & DL
 - [ ] Java
   - [ ] Java core concepts
   - [ ] Advanced Java topics
   - [ ] Java 8 & 9 features
-- [x] Apache Avro
 - [x] Maven
-- [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
+- [ ] Coursera ML & DL
 - [ ] Distributed systems
 	- online resources
 	- books
+- [ ] docker
+- [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
 - [ ] cryptos, stocks and trading
 - [ ] Regex
 - [ ] AWS - EC2, Lambda etc.
