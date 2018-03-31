@@ -12,6 +12,8 @@
 	- [ ] Naive Bayes classification
 	- [ ] Random Forest
 	- [ ] Feature extraction
+	- [ ] Pattern Recognition and Machine Learning - Bishop
+	- [ ]
 	- books
 - Hadoop
     - [ ] HDFS 
