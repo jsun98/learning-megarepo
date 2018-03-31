@@ -20,6 +20,11 @@ disp(sprintf('2 decimals: %0.6f', a));
 % matrix
 A = [1,2; 3,4; 5,6]
 
+size(A); % 1 by 2 matrix with value m by n of matrix A
+size(A,1); % size of dimention 1 (row) - 3
+size(A,2); % size of dimention 2 (column) - 2
+length(A) % size of the longest dimension
+
 V = [1,2,3] % 1 by 3 row vector 
 
 V2 = [1;2;3] % 3 by 1 vector
@@ -42,3 +47,5 @@ hist(w)
 eye(4) % 4 by 4 identity matrix
 
 help eye % documentation for the eye function
+
+
