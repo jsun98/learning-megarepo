@@ -19,7 +19,12 @@ grad = zeros(size(theta));
 
 
 
+hypothesis = sigmoid(X * theta);
 
+J = (1 / m) * (sum(-y .* log(hypothesis) - (1 - y) .* (log(1 - hypothesis)))) + (lambda / (2 * m)) * sum(theta(2:size(theta)) .^ 2);
+
+grad = (1 / m) .* ((hypothesis - y)' * X)' + (lambda / m) * theta; 
+grad(1) = (1 / m) * sum((hypothesis - y)' * X(1))'; 
 
 
 % =============================================================
