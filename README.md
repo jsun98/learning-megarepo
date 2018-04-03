@@ -13,12 +13,12 @@
 	- [ ] Random Forest
 	- [ ] Feature extraction
 	- [ ] Pattern Recognition and Machine Learning - Bishop
-	- [ ]
-	- books
+	- [ ] ML Andrew Ng
 - Hadoop
     - [ ] HDFS 
     - [ ] MapReduce
-    - [ ] Apache Pig
+    - [ ] Oozie
+    - [x] Apache Pig
     - [ ] Hbase
     - [ ] Hive
     - [x] Avro
@@ -28,11 +28,11 @@
   - [ ] Advanced Java topics
   - [ ] Java 8 & 9 features
 - [x] Maven
-- [ ] Coursera ML & DL
+- [ ] Coursera DL
 - [ ] Distributed systems
 	- online resources
 	- books
-- [ ] docker
+- [x] docker
 - [ ] Memorize Git commands like `checkout`, `stash`, `reset` etc.
 - [ ] cryptos, stocks and trading
 - [ ] Regex
