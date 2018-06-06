@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="algorithms" />
         <module name="algorithms-part-i-coursera" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="algorithms" target="1.5" />
       <module name="algorithms-part-i-coursera" target="1.5" />
     </bytecodeTargetLevel>
   </component>
